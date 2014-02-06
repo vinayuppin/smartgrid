@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>RaQP - Smart Grid</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<style>
+			body{
+					background:	url(img/img_01.png);
+					color:		#767676;
+				}
+		</style>		
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+	</head>
+	
+	<body>
+	    <div style="padding:2% 5% 5% 5%;">
+	        
+	        <div class="media">
+				<div class="media-body">
+					<h3 class="media-heading" style="text-align:center; margin-top:20px; margin-bottom:30px;">Mangalore Electricity Supply Company Limited (MESCOM)</h3>
+					<h1 class="media-heading" style="text-align:center;">RaQP - A Range Query Privacy preserving for <br>Smart Grid Information System</h1>
+				</div>
+			</div>
+			
+			<div class="tabbable" style="padding:3% 13.4%;">
+				<ul class="nav nav-pills">
+					<li class="active">
+						<a href="#tab1" data-toggle="tab">Home</a>
+					</li>
+					<li><a href="#tab2" data-toggle="tab">Smart Grid</a></li>
+					<li><a href="#tab3" data-toggle="tab">Cloud Computing</a></li>
+					<li><a href="#tab4" data-toggle="tab">Login</a></li>
+					<li><a href="#tab5" data-toggle="tab">About Us</a></li>
+				</ul>
+			</div>
+			
+			<div class="tab-content" style="padding:1% 5%;">
+				<div class="tab-pane active" id="tab1">
+						<p>Contents about home page (Under Construction).</p>
+				</div>
+				
+				<div class="tab-pane" id="tab2">
+						<p>Contents about Smart Grid page (Under Construction).</p>
+				</div>
+				
+				<div class="tab-pane" id="tab3">
+						<p>Contents about Cloud Computing page (Under Construction).</p>
+				</div>
+				
+				<div class="tab-pane" id="tab4" style="padding:0% 25%;">
+					<div class="hero-unit" id="login-form" style="width:400px; height:150px; padding:10% 5% 20% 10%; background-color:#C8C8C8;">
+				
+						<div id="login-err-msg-div"></div>
+						<div style="text-align: center; margin-bottom: 5%;"><strong style="font-size:20px;">Employee Login</strong></div>
+						
+						<div class="row">
+							<div class="span3" style="padding:0% 0% 0% 7%; width:120px;">Login ID</div>
+							<div class="span3"><input type="text" id="emp-id" required="required" placeholder="Login ID" style="width:150px;"></div>
+						</div>
+						
+						<div class="row">
+							<div class="span3" style="padding:0% 0% 0% 7%; width:120px;">Password</div>
+							<div class="span3"><input type="password" id="emp-pswdd" required="required" placeholder="Password" style="width:150px;"></div>
+						</div>
+						
+						<div class="row" style="margin-bottom:5%;">
+							<div class="span3" style="padding:0% 0% 0% 41%;">
+								<input id="login-btn" type="button" value="Submit" onclick="loginEmp();">
+							</div>
+							<div id="login-img" class="span3" style="padding:0% 0% 0% 42%; display:none;">
+								<p><img src="img/img_02.gif" style="width:30px; height:30px;">Please Wait ...</p>
+							</div>
+						</div>
+				
+					</div>
+				</div>
+				
+				<div class="tab-pane" id="tab5">
+						<p>Contents of About Us page (Under Construction).</p>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
