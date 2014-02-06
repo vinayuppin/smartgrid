@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>Manufacturing Unit</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/DT_bootstrap/DT_bootstrap.css"/>
+		<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.js"></script>	
+		<script type="text/javascript" src="../js/jquery.dataTables.min.js"></script>	
+		<script type="text/javascript" src="../js/DT_bootstrap.js"></script>
+		<script type="text/javascript" src="../js/manufacture.js"></script>
+	</head>
+	
+	<body>
+		<div class="navbar" style="margin:0">  	     
+			<div class="navbar-inner">
+				<div class="row">
+					<div class="span4">
+						<h3 style="color:#000">Manufacture Unit</h3>
+					</div>
+					<div class="span2"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="tabbable" style="padding:3% 5% 1% 5%;">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#tab1" data-toggle="tab">New Smart Meter Requests</a>
+				</li>
+				<li><a href="#tab2" data-toggle="tab">Deployed Smart Meters</a></li>
+			</ul>
+		</div>
+		
+		<div class="tab-content" style="padding:1% 5%;">
+		
+			<div class="tab-pane active" id="tab1">
+				<table id="new-smart-meter-tbl" class="table table-striped table-bordered">								
+					<thead>
+						<tr>
+							<th></th>
+							<th style="width:55px;">Sl. No</th>
+							<th></th>
+							<th>Name</th>
+							<th>Address</th>
+							<th>Email-ID</th>
+							<th>Mobile</th>
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody></tbody>		
+				</table>
+			</div>
+						
+			<div class="tab-pane" id="tab2">
+				<table id="old-smart-meter-tbl" class="table table-striped table-bordered">								
+					<thead>
+						<tr>
+							<th></th>
+							<th style="width:55px;">Sl. No</th>
+							<th></th>
+							<th>Name</th>
+							<th>Address</th>
+							<th>Email-ID</th>
+							<th>Mobile</th>									
+							<th></th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>						
+					<tbody></tbody>		
+				</table>
+			</div>
+									
+		</div>
+	</body>
+	
+</html>
